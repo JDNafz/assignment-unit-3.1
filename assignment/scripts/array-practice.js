@@ -114,7 +114,7 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 console.log(`-------------- STRETCH GOALS ----------------`);
 console.log(`${gems}`)
 gems[1] = 'Tourmaline'
-console.log(`after gems.pop('Citrine'): ${gems}`)
+console.log(`after gems[1]: ${gems}`)
 
 // 5.b (STRETCH) TODO: Sort your gems array
 //     in reverse alphabetical order.
