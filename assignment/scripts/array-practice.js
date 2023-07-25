@@ -111,17 +111,24 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 
 // 5.a (STRETCH) TODO: Replace the second gem with 'Tourmaline'
 //      Console log the updated array.
-
+console.log(`-------------- STRETCH GOALS ----------------`);
+console.log(`${gems}`)
+gems[1] = 'Tourmaline'
+console.log(`after gems.pop('Citrine'): ${gems}`)
 
 // 5.b (STRETCH) TODO: Sort your gems array
 //     in reverse alphabetical order.
 //     Console log the array.
+gems.sort().reverse();
+console.log(`Reversed alphabetical order${gems}`);
 
 
 // 5.c (STRETCH) TODO: Create a variable `gemString` and
 //     put the word "and" between each item. Research `.join()`.
 //     eg "Tourmaline and Topaz and Tanzanite and Iolite and Emerald and Diamond".
 //     Console log the string.
+let gemString = gems.join(' and ');
+console.log(`gemString is: ${gemString}`);
 
 
 // 5.d (STRETCH) TODO: Make a new array `colorfulGems` that combines 
@@ -130,7 +137,8 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 //     It should look something like:
 //     ['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']
 
-
+let colorfulGems = gems.concat(colors);
+console.log(colorfulGems);
 
 
 
