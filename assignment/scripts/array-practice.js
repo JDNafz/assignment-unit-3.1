@@ -36,14 +36,15 @@ console.log('First animal is', firstAnimal);
 // 3.a. TODO: Create a variable `secondAnimal`
 //      Console log the second animal in the array 
 let secondAnimal = animalArray[1];
+// console.log(animalArray);
 console.log('Second animal is', secondAnimal);
 
 
 // 3.b. TODO: Create a variable `lastAnimal`
 //      Console log the last animal in the array using it's array index 
 // let lastAnimal = animalArray[3];
-let lastAnimal = animalArray[numberOfAnimals - 1];
-// let lastAnimal = animalArray[animalArray.length - 1]; // or this
+// let lastAnimal = animalArray[numberOfAnimals - 1];
+let lastAnimal = animalArray[animalArray.length - 1]; 
 console.log('Last animal is', lastAnimal);
 
 // 3.c. (STRETCH) TODO: Update 3.b to use the array length, 
@@ -78,17 +79,17 @@ console.log(`Added an entree to the beginning: ${favoriteFoods}`)
 
 // Example: Remove the last animal by using Array.pop
 let removedAnimal = animalArray.pop();
-console.log('Removed the last animal', removedAnimal);
+console.log('Removed the last animal:', removedAnimal);
 console.log('The animals are now', animalArray);
 
-// NOTE: Use the `colors` array for 4.c and 4.d.
+// NOTE: Use the `colors` array for 4.c and 4.d. 
 let colors = ['orange', 'yellow', 'green', 'teal'];
 
 // 4.c. TODO: Create a variable `lastColor`. Remove the color 
 //      at the end of your array & assign it to `lastColor`.
 //      Console log both the color removed and the updated array.
 let lastColor = colors.pop();
-console.log('Removed the last color', lastColor);
+console.log('Removed the last color:', lastColor);
 console.log('the colors are now', colors);
 
 
@@ -120,7 +121,7 @@ console.log(`after gems[1]: ${gems}`)
 //     in reverse alphabetical order.
 //     Console log the array.
 gems.sort().reverse();
-console.log(`Reversed alphabetical order${gems}`);
+console.log(`Reversed alphabetical order ${gems}`);
 
 
 // 5.c (STRETCH) TODO: Create a variable `gemString` and
